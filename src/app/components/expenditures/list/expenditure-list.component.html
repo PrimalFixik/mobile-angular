@@ -1,0 +1,14 @@
+<h2>История</h2>
+
+<div class="transactions">
+  <div class="transaction" *ngFor="let exp of expenditures">
+    <span class="category">{{exp.category}}</span>
+    <span class="name">{{exp.name}}</span>
+    <span class="amount">{{exp.amount}} ₽</span>
+    <span class="date">{{exp.date}}</span>
+  </div>
+</div>
+
+<div class="btn-add">
+  <span routerLink="add">+</span>
+</div>
