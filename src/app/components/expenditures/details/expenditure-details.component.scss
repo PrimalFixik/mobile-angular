@@ -1,0 +1,32 @@
+.form {
+  .label {
+    display: block;
+    margin: 20px 0 10px;
+    font-weight: bold;
+    color: #025a74;
+  }
+  input, select {
+    line-height: 40px;
+    padding-left: 10px;
+    border: 1px solid #d7d5d5;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 90%;
+  }
+
+  select {
+    width: 94%;
+    height: 44px;
+    color: #757575;
+  }
+
+  button {
+    border: none;
+    background-color: #4da6c1;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 30px auto;
+  }
+}
