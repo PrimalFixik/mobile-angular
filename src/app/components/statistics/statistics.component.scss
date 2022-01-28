@@ -1,0 +1,20 @@
+.statistics {
+  border-radius: 3%;
+  padding: 10px;
+  background-color: #f8f9fb;
+
+  img {
+    width: 100%;
+  }
+}
+
+.flex {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  .price {
+    font-weight: bold;
+    color: #0c7b9d;
+  }
+}

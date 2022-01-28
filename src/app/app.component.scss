@@ -1,0 +1,9 @@
+.container {
+  margin: 65px 20px;
+}
+
+@media (min-width: 480px) {
+  .container {
+    margin: 75px 56px;
+  }
+}
