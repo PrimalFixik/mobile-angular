@@ -1,0 +1,11 @@
+<h2>Категории</h2>
+
+<div class="categories">
+  <div class="category" *ngFor="let category of categories">
+    <span class="category-title">{{category.name}}</span>
+  </div>
+</div>
+
+<div class="btn-add">
+  <span routerLink="add">+</span>
+</div>
